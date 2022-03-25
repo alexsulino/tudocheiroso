@@ -1,0 +1,204 @@
+/* Alex Mobile*/
+@media screen and (max-width: 779px) {
+
+/* header */
+.logo-wrapper .ajax-auth { position: fixed !important;     margin-top: 0%;  z-index: 10000;}
+
+section.banner_area.banner_area_mobile {
+    width: 100vw;
+    position: relative;
+    left: -4%;
+    margin-left: -50vw;
+    margin-right: -50vw;   
+}
+
+
+.woocommerce-ordering+.pt-view-switcher, .breadcrumbs-wrapper .single-product-navi {
+    display: block !important;
+    margin: 5px !important;
+}
+
+form.woocommerce-ordering {
+    display: none;
+}
+
+.shop-controls-wrapper {
+    margin: 0px !important;
+}
+.logo-wrapper {
+    display: none;
+}
+.header-top .container {
+    display: none;
+}
+div#mega-menu-wrap-max_mega_menu_1 {
+    display: none;
+}
+
+/* Footer */
+.site-footer .top-footer-widget .widget_block {width: 100%;}
+.site-footer .top-footer-widget .widget_block:nth-child(1) {text-align:center !important;}
+.site-footer .top-footer-widget .widget_block:nth-child(2) {margin: 20px 0 !important;}
+.site-footer .top-footer-widget .widget_block:nth-child(3) {text-align:center !important;}
+
+.site-footer .footer-widgets .widget {
+    background: rgb(0 0 0 / 30%);
+    margin: 10px 0PX 0PX 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.site-footer .widget ul li { padding: 2px;}
+
+/*  home */
+.home li.product {
+   flex: 1 1 165px !important;
+}
+/* Fim home */
+
+/* Minha Conta */
+.page-template-default .woocommerce-form {
+    width: 90%;
+}
+
+
+/******************************************************************* Produto list / Grid  /*******************************************************************/
+/* Produto list */
+ul.products li.product.list-view {
+    width: 100% !important;
+}
+/* Fim Produto list */
+
+/* Produto Grid */
+li.product {
+    flex: 1 1 165px !important;
+}
+
+/* Fim Produto Grid */
+
+/* Favoritos */
+.wishlist_table.mobile h3 {
+    font-size: 15px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.wishlist_table.mobile {
+    line-height: normal;
+}
+
+.wishlist_table.mobile li {
+    width: 100%;
+    background: #ffffff;
+    display: block;
+    clear: both;
+    float: left;
+    padding:6px;
+    margin: 0px 0px 10px 0px !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -11px rgb(0 0 0 / 60%)
+}
+
+.wishlist_table.mobile a {
+    padding: 1px !important;
+}
+
+.wishlist_table.mobile li .additional-info-wrapper {
+    float: right;
+    width: 100%;
+}
+
+.wishlist_table.mobile li .product-add-to-cart {
+    float: right;
+    margin: 0px !important;
+}
+
+.wishlist_table.mobile li .product-remove {
+    float: right;
+    margin-right: 15%;
+    color: #ff8f8f;
+}
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background: #3a5bb7;
+    border-radius: 5px;
+    padding: 0px 25px !important;
+    margin-top: -10px !important;
+    margin-bottom: 0px !important;
+}
+
+.wishlist_table.mobile li img {
+    border-radius: 5px;
+}
+/* Fim Favoritos */
+/******************************************************************* Fim Produto list / Grid  /*******************************************************************/
+
+
+/******************************************************************* Single Product  /*******************************************************************/
+h1.product_title.entry-title {font-size: 18px !important;text-align: center;font-weight: 400 !important;}
+
+div.product div.images img {
+	width:90% !important;
+}
+
+/******************************************************************* Fim Single Product  /*******************************************************************/
+/*******************************************************************  Carrinho *******************************************************************/
+
+table.shop_table.cart img {
+    width: 70px !important;
+    max-width: max-content;
+}
+table.shop_table.cart td.actions .coupon {
+    display: inline-table;
+    clear: both;
+    height: auto !important;
+    width: 100%;
+    text-align: center;
+}
+table.shop_table.cart td.actions .coupon .input-text {
+    width: 100%;
+    text-align: center;
+    max-width: 100% !important;
+}
+
+table.shop_table.cart td.actions .button.limpar_carrinho {
+    margin: 15px auto 5px auto!important;
+    float: right;
+}
+
+table.shop_table.cart td.actions button.button {
+    width: 100%;
+}
+
+.coupon button.button {
+    background: #999;
+}
+.cart-collaterals .cart_totals a.button.alt {
+    width: 100%;
+}
+/******************************************************************* Fim Carrinho *******************************************************************/
+
+/*******************************************************************  checkout *******************************************************************/
+
+/*******************************************************************  Fim checkout *******************************************************************/
+/* Plugins  */
+.yith-wacp-content table.cart-list td.item-quantity {flex: 30% !important;}
+.yith-wacp-content table.cart-list td.item-subtotal {flex: 30% !important;}
+#yith-wacp-popup .yith-wacp-content { padding: 0px 15px;}
+#yith-wacp-popup .yith-wacp-main { padding: 15px 0px;}
+
+
+
+
+/**** Personalizador de product //M Extra Product Options   ***/
+
+.woocommerce .tm-extra-product-options ul li.tmcp-field-wrap.tmhexcolorimage-li-nowh.tc-mode-startimages { width: 24% !important; float: left !important}
+
+/**** Fim  Personalizador de product //M Extra Product Options   ***/
+
+
+
+/******************************************************************* Fim  Plugins  */
+
+
+}
+

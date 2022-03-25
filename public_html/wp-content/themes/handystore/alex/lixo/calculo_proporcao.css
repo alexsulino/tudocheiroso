@@ -1,0 +1,94 @@
+.single-product form.cart {float: none;width: 100%;clear:  both;display:  block;}
+
+#price_calculator input.amount_needed{ 
+padding: 10px !important;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+	}
+	#price_calculator input.amount_needed#width_needed {background:#f4f4f4; cursor: no-drop;}
+	
+table#price_calculator {
+    background: #eee none repeat scroll 0 0;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+    /* Envie sua arte */
+.wc-measurement-price-calculator-price .woocommerce-Price-amount.amount{ display: block;}
+
+.calculated-price .product_price .amount {font-size: 23px; color: #347223; margin-top: 20px; display: block;}
+
+.price-table-row.calculated-price > td:nth-child(1)::before {
+    color: #000;
+    content: "Preço da unidade";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.price-table-row.calculated-price > td {
+    font-size: 0;
+}
+#price_calculator td .product_price span {
+    width: 100%;
+}
+#price_calculator td .product_price {
+    text-align: right !important;
+    width: 100%;
+	margin-right:10px;
+}
+.proporcao_padrao {width: 100%; background: #f9f9f9;  padding: 2px 5px; float: left; margin-bottom:15px;}
+.proporcao_padrao span{width:32%; float:left;}
+
+#price_calculator tr.price-table-row {
+    float:  left;
+    width: 32%;
+    background: #f4f4f4;
+    margin: 0.5%;
+    height: 115px;
+    border-bottom: solid 9px #ccc;
+    border-radius: 5px;
+}
+tr.price-table-row.total-amount {display:none;}
+
+#price_calculator td {
+    text-align: center !important;
+    width:  100%;
+    display:  block;
+    clear:  both;
+    line-height:  normal;
+}
+
+#price_calculator input, #price_calculator span {
+    text-align:  center;
+    float:  none !important;
+}
+
+span#Resultado_quantidade_x_valor_unidade {
+    display:  block;
+    clear:  both;
+    float: right;
+    width:  100%;
+}
+
+
+
+
+
+
+
+
+#price_calculator input, #price_calculator span { float:left; }
+span.size_instrucao {font-weight: 100;}
+			
+.calculo_total_js {
+background: #eee none repeat scroll 0 0;
+border-radius: 10px;
+padding: 20px 30px;
+    font-size: 25px;
+    color: #347223;
+    text-align: right;
+    margin: 20px 0px;
+    float: left;
+    width: 100%;
+}
+
+.calculo_total_js b {color:#333333; font-weight: bold;}

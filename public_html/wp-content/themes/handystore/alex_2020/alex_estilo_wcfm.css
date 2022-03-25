@@ -1,0 +1,172 @@
+/* Alex Mobile*/
+@media screen and (max-width: 779px) {
+
+/* header store */
+#wcfmmp-store #wcfm_store_header {
+    width: 100vw;
+    position: relative;
+    left: 0;
+    right:0px;
+    margin-left: -4vw;
+    margin-right: -1vw;
+    padding:0px 20px;
+}
+
+}
+
+/* Alex descktop */
+
+/* header store */
+
+.wcfm_banner_area_desktop {
+}
+
+#wcfmmp-store .banner_img {
+background-size: auto !important;
+	
+}
+#wcfmmp-store .banner_img img {
+    max-width: 1800px;
+    margin: auto;
+}
+.wcfm_slider_area {
+    max-width: 1300px;
+    margin: auto;
+}
+.wcfm_banner_area {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+	background-image: linear-gradient(to bottom right,hsla(0,0%,95.7%,.92),hsla(0,0%,95.7%,.92)), url(https://sampaprint.com.br/wp-content/themes/handystore/alex_2020/images/bg-banner-store.svg) !important;
+	background-repeat: repeat !important;
+	background-size: auto !important;
+
+}
+#wcfmmp-store .banner_img, #wcfmmp-store .banner_video, #wcfmmp-store .wcfm_slideshow_container {
+    min-height: 150px !important;
+    height: auto !important;
+}
+
+
+div#wcfm_store_header {
+width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    
+}
+.header_wrapper {
+    max-width: 1300px;
+}
+
+/* Fim header store */
+
+#wcfmmp-store .tab_area .tab_links {
+    border: none !important;
+    background: transparent !important;
+}
+
+#wcfmmp-store .tab_area .tab_links li {
+    border: none !important;
+    background: #fff;
+    border-radius: 10px !important;
+    margin: 0px 5px;
+}
+
+#wcfmmp-store .reviews_area, #wcfmmp-store .policies_area, #wcfmmp-store .wcfm_store_description {
+    border: none !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px 0 #f5f5f5 !important;
+}
+
+/* locais store */
+.wcfmmp-store-search-form {
+    box-shadow: none !important;
+}
+#wcfmmp-stores-lists {
+    box-shadow: none !important;
+}
+div#wcfmmp-stores-wrap-holder {
+    background: #fff;
+    border-radius: 10px;
+}
+div#wcfmmp-store-list-map {
+    border-radius: 5px;
+}
+/* locais store */
+
+/************ Store sidebar  /************/
+#wcfmmp-store .left_sidebar {
+    padding: 2% 1% 21% 1% !important;
+    background: none !important;
+    border: none !important;
+}
+.woocommerce #wcfmmp-store .left_sidebar, .woocommerce #wcfmmp-stores-lists .left_sidebar {
+    background: none !important;
+}
+#wcfmmp-store .sidebar_heading {
+    margin-bottom: 10px !important;
+}
+/************ Fim Store sidebar  /************/
+
+/*******************************************************************  Store Page  /*******************************************************************/
+
+#wcfmmp-store .right_side {
+    padding: 4% 1% 0 1% !important;
+}
+
+#wcfmmp-store .categories_list ul li.parent_cat a, #wcfmmp-store .categories_list ul li.child_cat a {
+    padding: 8px 20px !important;
+    background: #808080 !important;
+    margin: 2px !important;
+    border-radius: 10px;
+    color: #fff !important;
+    float:left;
+}
+#wcfmmp-store .categories_list ul li.parent_cat a.active, #wcfmmp-store .categories_list ul li.child_cat a.active {
+    background: #2196F3 !important;
+    color: #fff !important;  
+}
+
+#wcfmmp-store .categories_list ul li.parent_cat , #wcfmmp-store .categories_list ul li.child_cat {
+    padding: 0px !important;
+    margin: 2px !important;
+    border: none !important;
+}
+
+#wcfmmp-store .categories_list ul {
+    padding: 0px 2px 10px 2px;
+    float: left;
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin: 1px 0px 20px 0px;
+}
+.widget.wcfmmp-store-category {
+    display: block;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+input.wcfmmp_radius_range {padding:0px;}
+span.wcfmmp_radius_range_start, span.wcfmmp_radius_range_end {padding: 4px 0px;}
+
+.wcfm-store-page .rgt.right_side.right_side_full {padding: 10px !important;}
+.wcfm-store-page div#wcfmmp-store {box-shadow: 0 0 2px 0 #fff;}
+
+#wcfmmp-store .woocommerce ul.products li.product.list-view h2 {
+    min-height: auto !important;
+    max-height: auto !important;
+    font-size:105%;
+}
+
+#wcfmmp-store .woocommerce ul.products li.product h2 {
+   min-height: 50px;
+   height: 50px;
+    overflow: hidden;
+    max-height: 50px;
+    line-height: normal;
+}
+/******************************************************************* Fim Store Page  /*******************************************************************/
+

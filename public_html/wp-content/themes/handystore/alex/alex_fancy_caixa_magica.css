@@ -1,0 +1,152 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fpd-fullwidth-summary .summary.entry-summary { display: block;    clear: both;}
+.fpd-fullwidth-summary .summary.entry-summary h1.product_title.entry-title { text-align: center; margin: 20px 0px;}
+.fpd-fullwidth-summary .summary.entry-summary p.price { text-align: center !important;}
+.fpd-fullwidth-summary .summary.entry-summary span.woocommerce-Price-amount.amount { margin: auto; float: none; text-align: center;}
+.fpd-fullwidth-summary .summary.entry-summary form.cart {  text-align: center !important;}
+.fpd-fullwidth-summary .product_meta {display: none !important;}
+.fpd-fullwidth-summary .summary.entry-summary  .btns-wrapper { display: none;}
+
+.fpd-fullwidth-summary div#alex_galeria_full {
+    margin: auto !important;
+    float: none;
+    display: inline-block;
+	margin-left: 5% !important;
+}
+div.product .social-links {
+    margin: auto !important;
+    display: block;
+    clear: both !important;
+    text-align: center;
+}
+
+.alex_fancy_caixa_magica{
+    width: 20%;
+	 margin-top: 4% !important;
+	 padding: 5px;
+}
+.alex_fancy_caixa_magica.left{float: left;}
+.alex_fancy_caixa_magica.right{float: right;}
+
+
+
+/**** alex caixa magina ****/
+a.caixa_magica_container {
+    padding: 8px;
+    float: left;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+	font-size: 14px;
+	line-height: normal;
+	text-transform: uppercase;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	
+	
+	-webkit-box-shadow: 0 0 10px 1px #eeeeee;
+box-shadow: 0 0 10px 1px #eeeeee;
+}
+a.caixa_magica_container:hover {
+    background: #c2d44e !important;
+	font-weight: bold;
+	 
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.caixa_magica_icone {
+    float: left;
+    margin: 0px 0px 0px 1px;
+    width: 40px;
+    max-width: 40px;
+    font-size: 143%;
+    background: #f1f1f1;
+    border-radius: 50%;
+    padding: 11px;
+    text-align: center;
+    height: 40px;
+}
+.alex_fancy_caixa_magica ::before {
+    float: none;
+    clear: both;
+    margin: auto;
+    display: contents;
+	color: #666;
+}
+.caixa_magica_Texto{
+	margin: 10px 0px 0px 10px;
+    float: left;
+	width: 77%;
+
+}
+/**** Fim alex caixa magina ****/
+
+
+/**** alex barra progresso ****/
+.header_alex_prograsso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.header_alex_prograsso .progress-container {
+  width: 100%;
+  height: 5px;
+  background:none;
+}
+.header_alex_prograsso .progress-bar {
+  height: 5px;
+  background: #4caf50;
+  width: 0%;
+}
+/**** Fim alex barra progresso ****/
+
+
+form.variations_form.cart {
+    margin: auto !important;
+    float: inherit;
+    max-width: 620px;
+}
+div#rp_shipping_calculator {
+    display: none;
+}
+
+@media screen and (max-width: 998px) {
+/* Alex Mobile*/	
+	
+
+
+
+.alex_fancy_caixa_magica {
+    width: 46%;
+    margin-top: 2% !important;
+}
+
+a.caixa_magica_container {
+    margin: 0px 0px 5px 0px;
+	font-size: 13px;
+}
+.caixa_magica_Texto{
+	margin: 10px 0px 0px 10px;
+    float: left;
+	width: 66%;
+
+}
+.alex_fancy_caixa_magica.left{margin-left: 15px;}
+.alex_fancy_caixa_magica.right{margin-right: 15px;}
+
+/* Fim Alex Mobile*/	
+}	

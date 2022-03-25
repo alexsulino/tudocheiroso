@@ -1,0 +1,1 @@
+<a href="<?php echo get_site_url(); ?>/acessorios/codigo-de-barra/index.php?fino=2&largo=5&altura=50&alexFunction_quantidade=alexFunction_65&codigo_de_barra=<?php global $product; echo $product->get_sku(); ?>&produto_titulo=<?php echo get_the_title(); ?>" target="_blank" class="link_codigo_de_barra">Codigo de Barra</a>

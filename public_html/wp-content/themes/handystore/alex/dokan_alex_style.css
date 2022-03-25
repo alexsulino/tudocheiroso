@@ -1,0 +1,339 @@
+/* Dokan Single Product*/
+div.main_products_relacionados_by_author {margin:10px 0px;padding:25px;float:  right;background: #fff;border: solid 1px #e1e1e1;}
+
+div.main_products_relacionados_by_author h2 {font-size: 30px; font-weight: 300; margin-bottom:30px;}
+.main_products_relacionados_by_author a.button.vermais {
+    background-color: #666 !important;
+    padding: 0px 50px;
+    border-radius: 5px;
+    float:right;
+	margin-top: 20px;
+}
+
+	
+li#tab-title-seller {
+    display:  none;
+}
+a.close.dokan-remove-feat-image {
+    z-index: 1000;
+    position: absolute;
+}
+
+div.product .product_meta {width: 50% !important;}
+div.product .social-links {width: 50% !important;}
+
+
+/* Removendo botao de se tornar um vendedor da pagina de my-account/*/
+.woocommerce-MyAccount-content a.btn.btn-primary {
+    display: none;
+}
+
+.woocommerce-account .form-group.user-role {
+    display: none;
+}
+
+/* Modulo wholesale Atacado produto variação e produto simples */
+p.dokan-wholesale-meta, .woocommerce-variation-wholesale {
+    padding: 10px;
+    background: #f4f3f4;
+	margin: 10px 0px 30px 0px;
+}
+p.dokan-wholesale-meta:before, .woocommerce-variation-wholesale:before {
+    font-family: FontAwesome !important;
+    content: "\f080";
+    margin-right: 10px;
+    font-size:20px;
+}
+p.dokan-wholesale-meta, .woocommerce-variation-wholesale {
+    font-size: 0px;
+}
+p.dokan-wholesale-meta strong, .woocommerce-variation-wholesale strong {
+    font-size: 15px;
+    font-weight:800 !important;
+}
+p.dokan-wholesale-meta strong:before, .woocommerce-variation-wholesale strong:before {
+   content:"Atacado: ";
+   font-weight:400 !important;
+}
+p.dokan-wholesale-meta strong:nth-of-type(2):before, .woocommerce-variation-wholesale strong:nth-of-type(2):before {
+    content:"Quantidade minima: "; 
+    margin-left:20px;
+
+}
+p.dokan-wholesale-meta span.woocommerce-Price-amount.amount {
+    font-size: 140% ; color:#ff0000;
+}
+
+/* Fim Modulo wholesale Atacado */
+
+
+.autor_store a {text-align:center; display:block; clear: both; width:100%; font-size:90%;}
+
+/* Sidebar Loja */
+.widget.dokan-store-widget h3.widget-title {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder !important;
+}
+
+.widget.dokan-store-widget {
+    border: #eee solid 0px;
+	background: transparent;
+}
+
+.widget.dokan-store-widget ul, .dokan-privacy-policy-text {
+    padding:2px 10px 7px 15px !important;
+	margin-left: 0px;
+    
+}
+/* Fim Sidebar Loja */
+
+/*  Single Product - detalhes */
+.fpd-navigation .fpd-tooltip.tooltipstered {
+    height: 60px !important;
+}
+.fpd-navigation span.fpd-icon-design-library:after,
+.fpd-navigation span.fpd-icon-photo:after, .fpd-navigation span.fpd-icon-text-secondary:after,
+.fpd-navigation span.fpd-icon-layers:after {
+    font-family:arial;
+    font-size: 12px !important;
+    white-space: nowrap;
+    display: block;
+}
+.fpd-navigation span.fpd-icon-design-library:after {content: "Galeria";}
+.fpd-navigation span.fpd-icon-photo:after { content: "Sua Imagem";}
+.fpd-navigation span.fpd-icon-text-secondary:after {content: "Texto";}
+.fpd-navigation span.fpd-icon-layers:after {content: "Camadas";}
+
+
+.vendor_info_geral {
+    float: left;
+    width: 48%;
+}
+
+/* Header top store */
+.header_store {
+	float: left;
+	width: 100%;
+	background-color:#333;
+	background-size: 100%;
+	background-position: center;
+	    margin: 0px 0px 10px 0px;
+	
+    
+}
+a.link_store {
+    background: #333;
+}
+.header_store_banner{width: 100%; text-align:center; background: #fff;}
+.header_store_banner img {
+	width: 100%;
+    max-height: 300px;
+    max-width: 1300px;
+}
+
+.header_store_sub_bg {
+	float: left;
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.3);
+    background-size:cover;
+	/*background-image:linear-gradient(to right, black 1px, transparent 1px), linear-gradient(to bottom, black 1px, transparent 1px);*/
+}
+.header_store_sub_bg, .header_store_sub_bg a {
+	color:#f5f5f5 !important; 
+}
+.logotipo_store {
+    float: left;
+    padding: 5px 35px;
+	
+	
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 97%;
+}
+
+.logotipo_store img {
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: #989898 solid 1px;
+background: #fff;	
+}
+
+.header_store_left {
+    width: 30%;
+    float: left;
+   
+    padding: 5px 15px 0px 15px;
+}
+.header_store_center {
+    width: 20%;
+    float: left;
+    padding: 20px 20px 0px 20px;
+	text-align:center;
+}
+.header_store_right {
+    width: 27%;
+    float: right;
+    
+    padding: 20px 20px 0px 20px;
+	text-align:right;
+}
+.header_store_right a {
+    float: right;
+    
+    padding: 3px 25px;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.produtos_store a {
+    font-size: 21px;
+    padding: 18px;
+    color: #eee;
+    display: block;
+}
+
+.titulo_store {
+    font-size: 105%;
+    padding: 0px 0px 3px 0px;
+}
+/* Fim Header top store */ 
+
+/* modulo assinante */ 
+.product_pack_item {
+    border-radius: 10px;
+}
+a.dokan-btn.dokan-btn-theme.buy_product_pack {
+    padding: 9px 20px;
+    border-radius: 5px;
+}
+.current_pack a.dokan-btn.dokan-btn-theme.buy_product_pack {
+    background: #c2d44e !important;
+    border:none;
+}
+/* Fim modulo assinante */ 
+
+.dokan-single-store .profile-frame.profile-frame-no-banner .profile-layout-layout3 .profile-info-summery-wrapper .profile-info-summery .profile-info-head {
+    width: 15% !important;
+}
+.dokan-single-store .profile-frame.profile-frame-no-banner .profile-layout-layout3 .profile-info-summery-wrapper .profile-info-summery .profile-info-head .profile-img img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* alex 2020 */
+.dokan-theme-handystore td.name {
+    width: 250px;
+    max-width: 250px;
+    /* display: table-row-group; */
+}
+.dokan-theme-handystore p.order-product-variation {
+    display: none;
+}
+.dokan-theme-handystore div#woocommerce-order-items {display: inline-grid;width: 300px;}
+
+
+.alex_formuladios_dokan {width: 55%; background: #fff; padding: 30px; margin-bottom: 2px; min-height: 350px; border-radius: 10px; margin: auto; -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .15); box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .15);}
+.alex_formuladios_dokan label {
+    display: block;
+    clear: both;
+}
+.alex_formuladios_dokan input#first-name, .form-row.form-group input#last-name, .form-row.form-group input#shop-phone {
+    width: 60%;
+}
+.alex_formuladios_dokan input {
+    width: 100%;
+    border-radius:5px;
+}
+.alex_formuladios_dokan input#tc_agree {
+    width: auto;
+}
+.alex_formuladios_dokan input[type="checkbox"] {
+    FLOAT: LEFT;
+    WIDTH: AUTO;
+}
+
+.split-row.name-field.form-row-wide {
+    margin: 0px 0px 25px 0px;
+}
+
+/* Dokan Alex Mobile*/
+@media screen and (max-width: 768px) {
+	ul.products.products_relacionados_by_author li.col-md-3 {
+        width: 49%;
+        max-width:  49%;
+		max-height: 360px;
+    }
+	
+div.product .product_meta {width: 100% !important;}
+div.product .social-links {width: 100% !important;}
+.vendor_info_geral { width: 100% !important;}
+
+/* Header top store */
+.header_store_sub_bg div.site-main.container {
+    margin-top: 65px !important;
+}
+.logotipo_store {
+    padding: 5px 15px;
+    background-position: center;
+    background-size: 90%;
+}
+
+.logotipo_store img {
+	width: 35px;
+	height: 35px;
+}
+
+.header_store_left {
+	width: 55%;
+	padding: 3px 6px 8px 5px;
+    font-size: 10px;
+	    font-size: 87% !important;
+}
+.header_store_center {
+    width: 20%;
+        padding: 5px 3px 0px 4px;
+		    font-size: 11px;
+}
+.header_store_right {
+    display: none;
+}
+
+.titulo_store {
+    font-size: 100%;
+    padding:0px;
+}
+.produtos_store a {
+    font-size: 15px;
+    padding: 3px;
+}
+/* Fim Header top store */
+
+.alex_formuladios_dokan {width: 99%;}
+
+.profile-frame.profile-frame-no-banner {
+    display: none;
+}
+div#dokan-secondary {
+    display: none;
+}
+
+.product_pack_item {
+    width: 99% !important;
+}
+
+
+}	
+
+@media screen and (min-width: 769px) {
+
+}
+
+@media screen and (min-width: 992px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}

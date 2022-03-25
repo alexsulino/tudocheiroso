@@ -1,0 +1,27 @@
+/* Alex contagem 1,2,3,4,... na listagem dos pedidos */
+body{ counter-reset: section;}
+#order_line_items td.thumb .wc-order-item-thumbnail::after {counter-increment: section; content: " " counter(section)"";font-size:15px; padding:10px; margin:5px 5px 0px 5px; border-radius:5px; color:#000; background:#acf5a6; float:left; }
+.woocommerce_order_items_wrapper table.woocommerce_order_items td.thumb {padding: 8px 0px 0px 0px !important; width: 3% !important;}
+
+#order_line_items tr.item:hover {background: #f4f4f4; border:solid #ddd 3px !important; padding:20px !important;}
+#order_line_items tr.tm-order-line-option.item:hover {background:none !important;}
+
+
+.fpd-admin-icon-cloud-download, .fpd-save-as-template {display:none !important; }
+
+
+.fpd-container.fpd-topbar[class*=fpd-off-canvas-] .fpd-close-off-canvas {
+    position: sticky !important;
+    z-index: 1001 !important;
+}
+
+/* 2019 escondendo coisas */
+table.wp-list-table.widefat.fixed.striped.posts {
+    
+}
+
+ul#wp-admin-bar-root-default li#wp-admin-bar-edit { display: none !important;}
+
+tbody.wc-shipping-zone-rows.ui-sortable, table.wc-shipping-zone-methods.widefat, #toplevel_page_fancy_product_designer, .fpd-clearfix div#fpd-products.fpd-panel, #menu-plugins, table.wp-list-table.widefat.plugins, table#update-plugins-table {
+  
+}

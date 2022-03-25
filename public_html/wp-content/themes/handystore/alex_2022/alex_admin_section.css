@@ -1,0 +1,23 @@
+/* Alex ALMENTA CAIXA FANCY PRODUCTS */
+div#product-builder-container {
+    width: 99% !important;
+}
+#product-builder-container #layers-segment .card {
+    min-width: 100px !important;
+    width: 10% !important;
+}
+
+#fpd-react-root .pusher > .container {
+    width: 80% !important;
+}
+
+#fpd-react-root .card {
+    width: 9% !important;
+}
+/* FIM Alex ALMENTA CAIXA FANCY PRODUCTS */
+
+/* admin pedidos escondendo a lixeira*/
+.wp-admin ul.subsubsub li.trash {
+    opacity: 0.2;
+    font-size: 3px;
+}
