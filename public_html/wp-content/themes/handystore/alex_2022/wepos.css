@@ -1,0 +1,65 @@
+.cart-action .v-popover span.trigger a {
+    padding: 20px 20px !important;
+    float: left;
+    background: #008CBA !important;
+    width: 120px;
+    text-align: center;
+    color: #fff !important;
+    font-size: 16px !important;
+}
+.cart-action .wepos-custom-note-wrap .v-popover span.trigger a {
+    background: #690aa8 !important;
+}
+
+
+/* select, input */
+#wepos-main .content-product .top-panel .search-bar .search-box input#product-search,
+#wepos-main .content-product .top-panel .search-bar .search-box .search-type a,
+.wepos-multiselect .multiselect__input,
+#wepos-main .content-cart .top-panel .customer-search-box input#customer-search{
+    font-size: 16px !important;
+    height: 45px !important;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.wepos-multiselect .multiselect__tags {
+    min-height: 45px !important;
+    padding: 5px 30px 0 10px !important;
+    border: 1px solid #e9edf0;
+    font-size: 16px !important;
+}
+/* Fim select, input */
+
+/* add Item  */
+#wepos-main .content-cart .cart-panel .cart-calculation table.cart-total-table tbody tr.cart-meta-data td.label .fee-name {
+    width: 100% !important;
+    font-size: 18px !important;
+    margin: 10px 0px !important;
+}
+#wepos-main .content-cart .cart-panel .cart-calculation table.cart-total-table tbody tr.cart-meta-data td.label .fee-amount {
+    width: 20% !important;
+    font-size: 18px !important;
+}
+
+.cart-panel, 
+#wepos-main .content-cart .cart-panel .cart-content table.cart-table tbody tr td  {
+    font-size: 16px !important;
+}
+#wepos-main .content-cart .cart-panel .cart-calculation table.cart-total-table tbody tr.cart-meta-data td.label span.name {
+    color: #555d68 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+/* note */
+td.note-text {
+    padding: 20px;
+    background: #fff;
+    font-size: 22px;
+}
+
+td.note-text:before {
+    content: '>>>';
+}
